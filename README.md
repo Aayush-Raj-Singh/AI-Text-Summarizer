@@ -19,11 +19,11 @@ A powerful AI-based web application that intelligently summarizes long texts, ar
 ## 📁 Project Structure
 
 <pre lang="markdown">
-   ``` AI-Text-Summarizer/ 
+   AI-Text-Summarizer/ 
    │ ├── app.py # Main Streamlit application script
    ├── requirements.txt # List of required Python packages
    ├── README.md # Project documentation
-   └── example_summary.txt # Optional: example output file ``` 
+   └── example_summary.txt # Optional: example output file
 </pre>
 
 ---
