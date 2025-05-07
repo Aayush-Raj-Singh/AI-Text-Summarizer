@@ -23,7 +23,7 @@ A powerful AI-based web application that intelligently summarizes long texts, ar
    │ ├── app.py # Main Streamlit application script
    ├── requirements.txt # List of required Python packages
    ├── README.md # Project documentation
-   └── example_summary.txt # Optional: example output file
+   └── sample.txt # Optional: example output file
 </pre>
 
 ---
