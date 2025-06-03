@@ -1,3 +1,6 @@
+## MICROSOFT-EDUNET-AICTE-INTERNSHIP-2025
+
+
 # 🧠 AI Text Summarizer
 
 A web-based AI summarization tool developed as part of the **Foundations of Artificial Intelligence Internship (April 2025)** conducted by **Edunet Foundation** in collaboration with **Microsoft** and **AICTE**. This project applies advanced NLP models to efficiently condense long texts, articles, or essays using Hugging Face Transformers and a Streamlit interface.
