@@ -100,5 +100,5 @@ Free to use, modify, and distribute responsibly.
 
 ## ⭐ Support
 
-If this project helped you, give it a ⭐ on GitHub and connect with me on [LinkedIn]([https://www.linkedin.com/in/](https://www.linkedin.com/in/aayush-raj-77a1bb237 
-]).
+If this project helped you, give it a ⭐ on GitHub and connect with me on [LinkedIn]((https://www.linkedin.com/in/aayush-raj-77a1bb237 
+)).
