@@ -1,58 +1,91 @@
 # 🧠 AI Text Summarizer
 
-A powerful AI-based web application that intelligently summarizes long texts, articles, or essays using cutting-edge NLP models from Hugging Face. Built with Streamlit for a sleek user interface and designed to run on CPU.
+A web-based AI summarization tool developed as part of the **Foundations of Artificial Intelligence Internship (April 2025)** conducted by **Edunet Foundation** in collaboration with **Microsoft** and **AICTE**. This project applies advanced NLP models to efficiently condense long texts, articles, or essays using Hugging Face Transformers and a Streamlit interface.
 
 ---
 
 ## 🚀 Features
 
-- 📄 Summarize plain text or `.txt` file uploads
-- 🤖 Choose from models: `facebook/bart-large-cnn`, `t5-small`
-- 🎛️ Adjustable summary length via sliders
-- 📥 Download the summary in `.txt` format
-- 🎨 Custom-styled UI with HTML & CSS via Streamlit
-- 🧠 Powered by Hugging Face Transformers
-- 💻 CPU-friendly, no GPU required
+- 📄 Summarize raw input or uploaded `.txt` files
+- 🤖 Choose between pretrained models: `facebook/bart-large-cnn` or `t5-small`
+- 🎛️ Control summary length with intuitive sliders
+- 📥 Download generated summaries as `.txt` files
+- 🎨 Stylish and responsive UI using Streamlit’s HTML/CSS features
+- 💻 Optimized for CPU-based execution—no GPU needed
 
 ---
 
 ## 📁 Project Structure
 
-<pre lang="markdown">
-   AI-Text-Summarizer/ 
-   │ ├── app.py # Main Streamlit application script
-   ├── requirements.txt # List of required Python packages
-   ├── README.md # Project documentation
-   └── sample.txt # Optional: example output file
-</pre>
+```
+AI-Text-Summarizer/
+├── app.py              # Main Streamlit application
+├── requirements.txt    # Required Python dependencies
+├── README.md           # Documentation
+└── sample.txt          # Sample text file for testing
+```
 
 ---
 
 ## ⚙️ How It Works
 
 1. **User Input**:
-   - Upload a `.txt` file or manually enter text.
+   - Upload `.txt` file or type/paste text.
 2. **Preprocessing**:
-   - Cleans and prepares text input.
+   - Cleans and processes text.
 3. **Model Selection**:
-   - Choose between BART (`facebook/bart-large-cnn`) or T5 (`t5-small`).
+   - Choose between BART or T5 from Hugging Face.
 4. **Summarization**:
-   - Uses Hugging Face’s `pipeline` with selected model.
+   - Uses the `pipeline("summarization")` API.
 5. **Customization**:
-   - User adjusts `min_length` and `max_length` sliders.
+   - Adjust `min_length` and `max_length` sliders for control.
 6. **Output**:
-   - Display summary, download option, word count feedback.
+   - Display summary, view word count, and download result.
 
 ---
 
-## 🔧 Future Features
+## 🧪 Example
 
-- 📝 Support for `.pdf` and `.docx` file formats
-- 🌐 Multilingual summarization support
-- 📊 Summary quality metrics
-- 🧵 Text segmentation and topic highlighting
-- 🗣️ Text-to-speech for summaries
-- 🧪 Model benchmarking (ROUGE, BLEU scoring)
+**Input:**
+> "Artificial Intelligence is the simulation of human intelligence processes by machines..."
+
+**Summary:**
+> "AI simulates human intelligence processes using machines..."
+
+---
+
+## 🎓 Internship Context
+
+This project was created during a **4-week AI internship** (April 2025) organized by:
+
+- 🏢 **Edunet Foundation**
+- 🤝 **Microsoft (MS AI-NSI)**
+- 🏛️ **AICTE (All India Council for Technical Education)**
+
+Key Learnings:
+- Fundamentals of AI, ML, DL, and Gen-AI
+- Hands-on with supervised/unsupervised learning
+- Computer Vision and Azure demos
+- Deep learning and neural network implementation
+- Project development with real-world application
+
+---
+
+## 🔮 Future Enhancements
+
+- 📄 Support for `.pdf` and `.docx` formats
+- 🌐 Multilingual summarization capabilities
+- 📊 Summary quality metrics (ROUGE, BLEU)
+- 🧵 Topic segmentation and highlighting
+- 🗣️ Text-to-speech integration
+- 🧪 Model benchmarking suite
+
+---
+
+## 📜 License
+
+MIT License  
+Free to use, modify, and distribute responsibly.
 
 ---
 
@@ -60,19 +93,12 @@ A powerful AI-based web application that intelligently summarizes long texts, ar
 
 - **Framework**: [Streamlit](https://streamlit.io/)
 - **NLP Models**: [Hugging Face Transformers](https://huggingface.co/)
-- **Design Inspiration**: OpenAI, Hugging Face community
+- **Internship Program**: Microsoft, AICTE & Edunet Foundation
 - **Developer**: [Aayush Raj Singh](https://github.com/Aayush-Raj-Singh)
-
----
-
-## 📜 License
-
-This project is licensed under the MIT License.  
-Feel free to use, modify, and share responsibly.
 
 ---
 
 ## ⭐ Support
 
-If you found this helpful, please consider giving a ⭐ on GitHub!
-
+If this project helped you, give it a ⭐ on GitHub and connect with me on [LinkedIn](https://www.linkedin.com/in/](https://www.linkedin.com/in/aayush-raj-77a1bb237 
+).
